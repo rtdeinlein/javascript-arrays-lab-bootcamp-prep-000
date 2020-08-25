@@ -5,3 +5,6 @@ function destructivelyAppendKitten(Milo){
 function destructivelyPrependKitten(Milo){
   return kittens.unshift(Milo)
 }
+function destructivelyRemoveLastKitten(Garfield){
+  return kittens.pop(Garfield)
+}
