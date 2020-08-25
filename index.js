@@ -8,3 +8,9 @@ function destructivelyPrependKitten(Milo){
 function destructivelyRemoveLastKitten(Garfield){
   return kittens.pop(Garfield)
 }
+function destructivelyRemoveFirstKitten(Milo){
+  return kittens.shift(Milo)
+}
+function appendKitten(Otis){
+  return [...kittens, Otis]
+}
